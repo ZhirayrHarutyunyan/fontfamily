@@ -37,3 +37,48 @@
   font-family: "HelveticaNowText-Bold-fifth";
   src: url("fifth/HelveticaNowTextBold/font.woff2") format("woff2");
 }
+
+/* act-on current */
+
+@import url("//hello.myfonts.net/count/394177");
+
+@font-face {
+  font-family: "HelveticaNow-Regular";
+  src: url("webfonts/394177_0_0.eot");
+  src: url("webfonts/394177_0_0.eot?#iefix") format("embedded-opentype"),
+    url("webfonts/394177_0_0.woff2") format("woff2"),
+    url("webfonts/394177_0_0.woff") format("woff"),
+    url("webfonts/394177_0_0.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HelveticaNow-Italic";
+  src: url("webfonts/394177_1_0.eot");
+  src: url("webfonts/394177_1_0.eot?#iefix") format("embedded-opentype"),
+    url("webfonts/394177_1_0.woff2") format("woff2"),
+    url("webfonts/394177_1_0.woff") format("woff"),
+    url("webfonts/394177_1_0.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "HelveticaNow-Medium";
+  src: url("webfonts/394177_2_0.eot");
+  src: url("webfonts/394177_2_0.eot?#iefix") format("embedded-opentype"),
+    url("webfonts/394177_2_0.woff2") format("woff2"),
+    url("webfonts/394177_2_0.woff") format("woff"),
+    url("webfonts/394177_2_0.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HelveticaNow-Bold";
+  src: url("webfonts/394177_3_0.eot");
+  src: url("webfonts/394177_3_0.eot?#iefix") format("embedded-opentype"),
+    url("webfonts/394177_3_0.woff2") format("woff2"),
+    url("webfonts/394177_3_0.woff") format("woff"),
+    url("webfonts/394177_3_0.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
