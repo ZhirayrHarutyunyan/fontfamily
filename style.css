@@ -1,0 +1,102 @@
+@import url("./font.css");
+/* act-on font style */
+.HelveticaNowTextMedium-act-on {
+  font-family: "HelveticaNowText-Medium-act-on";
+}
+.HelveticaNowTextRegular-act-on {
+  font-family: "HelveticaNowText-Regular-act-on";
+}
+.HelveticaNowTextIt-act-on {
+  font-family: "HelveticaNowText-It-act-on";
+}
+.HelveticaNowTextBold-act-on {
+  font-family: "HelveticaNowText-Bold-act-on";
+}
+/* fifth font style */
+
+.HelveticaNowTextMedium-fifth {
+  font-family: "HelveticaNowText-Medium-fifth";
+}
+.HelveticaNowTextRegular-fifth {
+  font-family: "HelveticaNowText-Regular-fifth";
+}
+.HelveticaNowTextIt-fifth {
+  font-family: "HelveticaNowText-It-fifth";
+}
+.HelveticaNowTextBold-fifth {
+  font-family: "HelveticaNowText-Bold-fifth";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 860px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+}
+
+.title {
+  font-size: 36px;
+  margin-bottom: 15px;
+  color: red;
+}
+
+.font-size {
+  font-size: 24px;
+}
+
+.item {
+  max-width: 50%;
+  padding: 10px;
+}
+
+.list {
+  margin-bottom: 10px;
+}
+
+.text {
+  font-size: 14px;
+  color: black;
+}
+
+.checked {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+.checked .checkbox:checked ~ .checked-checkbox {
+  background-color: black;
+  border: 1px solid black;
+}
+
+.checked .checkbox:checked ~ .checked-checkbox::before {
+  content: "";
+  width: 4px;
+  height: 11px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.checked-checkbox {
+  width: 18px;
+  height: 18px;
+  position: relative;
+  border: 1px solid #bdbdbd;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+.checkbox-text {
+  font-size: 14px;
+  margin-left: 5px;
+}

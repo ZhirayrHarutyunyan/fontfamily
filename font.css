@@ -1,0 +1,39 @@
+/* act-on */
+@font-face {
+  font-family: "HelveticaNowText-Medium-act-on";
+  src: url("act-on/HelveticaNowTextMedium/font.woff2") format("woff2"),
+    url("act-on/HelveticaNowTextMedium/font.woff") format("woff");
+}
+@font-face {
+  font-family: "HelveticaNowText-It-act-on";
+  src: url("act-on/HelveticaNowTextIt/font.woff2") format("woff2"),
+    url("act-on/HelveticaNowTextIt/font.woff") format("woff");
+}
+@font-face {
+  font-family: "HelveticaNowText-Regular-act-on";
+  src: url("act-on/HelveticaNowTextRegular/font.woff2") format("woff2"),
+    url("act-on/HelveticaNowTextRegular/font.woff") format("woff");
+}
+@font-face {
+  font-family: "HelveticaNowText-Bold-act-on";
+  src: url("act-on/HelveticaNowTextBold/font.woff2") format("woff2"),
+    url("act-on/HelveticaNowTextBold/font.woff") format("woff");
+}
+
+/* fifth */
+@font-face {
+  font-family: "HelveticaNowText-Medium-fifth";
+  src: url("fifth/HelveticaNowTextMedium/font.woff2") format("woff2");
+}
+@font-face {
+  font-family: "HelveticaNowText-It-fifth";
+  src: url("fifth/HelveticaNowTextIt/font.woff2") format("woff2");
+}
+@font-face {
+  font-family: "HelveticaNowText-Regular-fifth";
+  src: url("fifth/HelveticaNowTextRegular/font.woff2") format("woff2");
+}
+@font-face {
+  font-family: "HelveticaNowText-Bold-fifth";
+  src: url("fifth/HelveticaNowTextBold/font.woff2") format("woff2");
+}
